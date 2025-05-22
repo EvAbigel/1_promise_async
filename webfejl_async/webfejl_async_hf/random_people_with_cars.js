@@ -1799,4 +1799,4 @@ const people = [
       "type": "Sedan"
     }
   }
-];
+]; 

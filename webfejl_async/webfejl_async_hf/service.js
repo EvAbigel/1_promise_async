@@ -1,8 +1,8 @@
 class Service{
     #data
 
-    constructor(){
-        this.#data = people;
+    constructor(peopleArray){
+        this.#data = peopleArray;
     }
 
     init(){
