@@ -81,4 +81,6 @@ buyapple3(11).then(value =>{
 }).catch(error =>{
     console.log(error);
     console.log(9);
-})
+});
+
+//teszt

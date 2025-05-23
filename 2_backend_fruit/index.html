@@ -6,10 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action="http://127.0.0.1:63013/pages/greet?name=<name>" method="get">
         <label for="">Név:</label>
         <input type="text" name="name">
         <button>Köszön</button>
     </form>
+
+    <form action="http://127.0.0.1:63013/pages/fruits" method="post">
+        <input type="text" name="name">
+        <label for="">Ára</label>
+        <input type="text" name="price">
+        
+        <button>Gyümölcs hozzáadás</button>
+    </form>
+   
 </body>
 </html>
